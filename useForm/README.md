@@ -1,10 +1,12 @@
 # useForm
 
+## Ejemplo de uso:
+
 ```
 const initialForm = {
   name: '',
   age: 0,
   email: '',
 }
-const [fomrValues, handleInputChange, reset]= useForm(initialForm);
+const [values, handleInputChange, reset] = useForm(initialForm);
 ```
